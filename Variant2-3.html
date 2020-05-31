@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	 </script>
+	 <script>
+	     $(document).ready(function() {
+		     $("#but1").click(function() {
+			     $("div:odd").slideUp("slow");
+				 }); 
+			 });
+	 </script>		 
+   </head>
+   <body>	
+     <button id="but1">Слайд-шоу!</button>
+	 <br><br>
+	 <div><img src="minsk.jpg"></div>
+	 <div><img src="market.jpg"></div>
+	 <div><img src="opera.jpg"></div>
+	 <div><img src="minsk2.jpg"></div>
+	 <div><img src="venok.jpg"></div>
+	 <div><img src="dom.jpg"></div>	 
+   </body>
+</html>
